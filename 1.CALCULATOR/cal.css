@@ -1,0 +1,46 @@
+.page {
+    text-align: center;
+
+}
+
+input{
+    font-size: 35px;
+    justify-content: space-between;
+    background: #9da2e7;
+    border-radius: 40px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    text-align: right;
+    pointer-events: none;
+}
+
+table{
+    margin: auto;
+}
+
+button{
+    font-size: 50px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 70px;
+    background-color: antiquewhite;
+}
+
+.btn-red{
+    background-color: orangered;
+}
+.btn-yellow{
+    background-color: yellowgreen;
+}
+.btn-green{
+    background-color: green;
+}
+
+.calci{
+    border: 5px solid rgb(119, 117, 117);
+    display: inline-block;
+    padding: 8px;
+    background-color: gray;
+}
