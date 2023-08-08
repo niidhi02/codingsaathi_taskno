@@ -1,0 +1,17 @@
+*{
+    background-color:rgb(122, 126, 120);
+}
+#Sushmita{
+    background-image: url("Sushmita.jpg");
+    height: 85vh;
+    width: 95%;
+    background-size: cover;
+    background-position: top 10% right 0 ;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    font-style: italic;
+    ;
+}
