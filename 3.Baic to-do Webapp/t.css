@@ -1,0 +1,82 @@
+body{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #619ca9;
+}
+
+.fpage {
+    max-width: 2000px;
+    margin: 20px gray;
+    padding: 20px;
+    background-color: rgb(90, 130, 129);
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size:xx-large;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7e9e9;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#fpage{
+    display: table;
+    clear: both;
+}
+
+.tasks1{
+    float: left;
+    font-size: larger;
+    height: 1000px;
+    width: 50%;
+    background-color: #78bbe7;
+   
+}
+
+.tasks2{
+    float: right;
+    font-size: larger;
+    height: 1000px;
+    width: 50%;
+    
+    background-color: #6ce5eb;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #0a090fcd;
+    color: rgb(122, 150, 152);
+    border:black;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    width: 80px;
+    cursor: pointer;
+}
